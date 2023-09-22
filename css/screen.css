@@ -1,29 +1,39 @@
 body {
-    background-color: rgb(172, 250, 224);
+    background-color: rgb(179, 255, 230);
 }
 
 h1 {
-text-align: center;
-font-size: larger;
+    text-align: center;
+    font-size: larger;
+    display: block;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
 }
 
 label {
-    width: 95%;
     height: 30px;
     text-align: center;
+    font-size: larger;
+    background-color: rgb(204, 230, 255);
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 input {
     height: 30px;
+    width: 99%;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 div {
-    width: 50%;
+    margin: 0 auto;
 
 }
 
 #wrap {
-    width: 50%;
+    width: 90%;
     margin: 0 auto;
 }
 
