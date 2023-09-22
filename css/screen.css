@@ -38,11 +38,30 @@ div {
 }
 
 @media screen and (min-width: 768px) {
+    body {
+        background-color: rgb(255, 186, 186);
+    }
+
     div {
         display: inline;
+        margin-left: 30%;
+        margin-right: 30%;
     }
 
     label {
         display: inline-block;
+        background-color: none;
+        background-color: rgb(255, 186, 186);
+        text-align: center;
+    }
+    
+    input {
+        width: 30%;
+        height: 30px;
+    }
+
+    #wrap {
+        width: 90%;
+        margin: 0 auto;
     }
 }
