@@ -11,20 +11,22 @@
   <body>
     <h1>Please enter your information below</h1>
     <form action="#null" method="post" autocomplete="on">
-      <div>
-        <label for="emailid">Email address:</label>
-        <input type="email" name="email_field" placeholder="johndoe@example.com" id="emailid">
-      </div>
-      <div>
-        <label for="phoneid">Phone number:</label>
-        <input type="tel" name="phone_field" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" id="phoneid">
-      </div>
-      <div>
-        <label for="dateid">Date of birth:</label>
-        <input type="date" name="dob_field" id="dateid">
-      </div>
-      <div>
-        <input type="submit" value="Submit">
+      <div id="wrap">
+        <div>
+          <label for="emailid">Email address:</label>
+          <input type="email" name="email_field" placeholder="johndoe@example.com" id="emailid">
+        </div>
+        <div>
+          <label for="phoneid">Phone number:</label>
+          <input type="tel" name="phone_field" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" id="phoneid">
+        </div>
+        <div>
+          <label for="dateid">Date of birth:</label>
+          <input type="date" name="dob_field" id="dateid">
+        </div>
+        <div>
+          <input type="submit" value="Submit">
+        </div>
       </div>
     </form>
   </body>
