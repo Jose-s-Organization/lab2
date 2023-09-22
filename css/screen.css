@@ -58,8 +58,8 @@ div {
     input {
         width: auto;
         height: 30px;
-        float: center;
-    }
+        margin-top: 10px;
+        }
 
     .container {
         width: 500px;
