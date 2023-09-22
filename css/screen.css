@@ -56,9 +56,14 @@ div {
     }
     
     input {
-        width: 30%;
+        width: auto;
         height: 30px;
         float: center;
+    }
+
+    .container {
+        width: 500px;
+        float: left;
     }
 
 }
